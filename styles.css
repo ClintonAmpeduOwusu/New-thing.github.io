@@ -1,0 +1,61 @@
+
+/* Basic reset */
+* {
+    margin: 0;
+        padding: 0;
+            box-sizing: border-box;
+            }
+
+body {
+    font-family: Arial, sans-serif;
+        line-height: 1.6;
+            color: #333;
+                background-color: #f4f4f4;
+                    display: flex;
+                        justify-content: center;
+                            align-items: center;
+                                min-height: 100vh;
+                                }
+
+                                /* Centering main content */
+                                #main {
+                                    max-width: 800px;
+                                        padding: 20px;
+                                            text-align: center;
+                                                background-color: #fff;
+                                                    border-radius: 8px;
+                                                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                                                        }
+
+                             /* Image container styling */
+                             #img-div {
+                                 margin: 20px 0;
+                                 }
+                                                            #image {
+                                                                  max-width: 100%;
+                                                                      height: auto;
+                                                                          display: block;
+                                                                              margin: 0 auto;
+                                                                                  border-radius: 8px;
+                                                                                  }
+                                                            }
+                                                            #img-caption {
+                                                                  margin-top: 10px;
+                                                                      font-size: 0.9em;
+                                                                          color: #555;
+                                                                          }
+
+                                                            }
+                                                            /* Tribute link styling */
+                                                            #tribute-link {
+                                                                display: inline-block;
+                                                                    margin-top: 20px;
+                                                                        color: #3498db;
+                                                                            text-decoration: none;
+                                                                                font-weight: bold;
+                                                                                }
+
+                                                                                #tribute-link:hover {
+                                                                                    color: #2980b9;
+                                                                                    }
+                                                                                    
